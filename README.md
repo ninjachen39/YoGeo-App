@@ -6,4 +6,6 @@ DevOps Tools: Azure DevOps, Docker, Kubernetes
 
 Web Server: nginx
 
+Cloud Service: Azure
+
 CDN: Azure CDN
