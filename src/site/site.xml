@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CLAVIN Documentation">
+   <skin>
+	   <groupId>org.apache.maven.skins</groupId>
+	   <artifactId>maven-fluido-skin</artifactId>
+	   <version>1.9</version>
+  </skin>
+  <custom>
+    <topBarEnabled>false</topBarEnabled>
+    <sideBarEnabled>true</sideBarEnabled>
+    <fluidoSkin>
+        <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+    </fluidoSkin>
+  </custom>
+  <publishDate position="right" />
+  <version position="right" />
+  <poweredBy>
+        <logo name="Maven" href="http://maven.apache.org/"
+              img="http://maven.apache.org/images/logos/maven-feather.png" />
+  </poweredBy>
+  <body>
+    <breadcrumbs>
+      <item name="CLAVIN Home" href="http://clavin.bericotechnologies.com" />
+      <item name="Novetta" href="https://www.novetta.com" />
+      <item name="Fork Me on GitHub" href="https://github.com/Novetta/CLAVIN" />
+    </breadcrumbs>
+    <menu>
+        <item name="Overview" href="index.html" />
+        <item name="Roadmap" href="roadmap.html" />
+    </menu>
+    <menu name="Tutorials">
+        <item name="Installation" href="tutorials/installation.html" />
+        <item name="5-Minute Tutorial" href="tutorials/fivemin-tutorial.html" />
+    </menu>
+    <menu name="Changelog">
+        <item name="v1.0.0" href="changelog/changes-v1.0.0.html" />
+        <item name="v2.0.0" href="changelog/changes-v2.0.0.html" />
+    </menu>
+    <menu name="How CLAVIN Works">
+      <item name="Geospatial Data Model" href="documentation/geospatial-data-model.html" />
+      <item name="Processing Workflow" href="documentation/processing-workflow.html" />
+    </menu>
+    <menu name="Documentation" ref="reports" />
+  </body>
+  
+</project>
